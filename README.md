@@ -23,5 +23,3 @@
 - **Taste over templates.** If it looks like every other AI-made page, it is not done yet.
 - **Safe by default.** Auth on, localhost first, nothing irreversible without a human saying yes.
 - **Ship what I use.** Everything here runs in my own daily setup before it becomes public.
-
-<sub>Built with Claude Code. Not affiliated with Anthropic.</sub>
