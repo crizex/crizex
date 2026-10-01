@@ -5,7 +5,7 @@
 @media (prefers-reduced-motion:reduce){.c{animation:none}}
 </style>
 <radialGradient id="l" cx="62%" cy="58%" r="55%"><stop offset="0" stop-color="#F2B45A" stop-opacity=".22"/><stop offset="1" stop-color="#F2B45A" stop-opacity="0"/></radialGradient>
-<filter id="g"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .05 0"/></filter></defs>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .05 0"/><feComposite in2="SourceGraphic" operator="in"/></filter></defs>
 <rect width="1280" height="420" rx="24" fill="#0B0C0E"/>
 <rect width="1280" height="420" rx="24" fill="url(#l)"/>
 <rect width="1280" height="420" rx="24" filter="url(#g)"/>
