@@ -1,0 +1,24 @@
+name: Latest releases
+on:
+  schedule: [{cron: "0 */6 * * *"}]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for r in $(gh repo list crizex --visibility public --source --json name --jq '.[].name'); do
+            gh release view -R crizex/$r --json name,publishedAt,url \
+              --jq '"\(.publishedAt[:10])|\(.name)|\(.url)"' 2>/dev/null || true
+          done | sort -r | head -5 | awk -F'|' '{printf "- `%s` [%s](%s)\n", $1, $2, $3}' > /tmp/rel
+          awk '/<!-- releases:end -->/{skip=0} !skip{print} /<!-- releases:start -->/{while((getline l < "/tmp/rel") > 0) print l; skip=1}' README.md > /tmp/README.md
+          mv /tmp/README.md README.md
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update latest releases" && git push
