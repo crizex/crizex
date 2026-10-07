@@ -34,8 +34,8 @@
 **Latest releases**
 
 <!-- releases:start -->
+- `2026-10-07` [SessionDeck Desktop 1.7.3](https://github.com/crizex/sessiondeck-desktop/releases/tag/v1.7.3)
 - `2026-10-05` [sessiondeck 1.2.1](https://github.com/crizex/sessiondeck/releases/tag/v1.2.1)
-- `2026-10-05` [SessionDeck Desktop 1.7.2](https://github.com/crizex/sessiondeck-desktop/releases/tag/v1.7.2)
 - `2026-10-05` [Promptwerk 1.4.1](https://github.com/crizex/promptwerk/releases/tag/v1.4.1)
 - `2026-10-01` [Art Director 1.4.0](https://github.com/crizex/art-director/releases/tag/v1.4.0)
 <!-- releases:end -->
