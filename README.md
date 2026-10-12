@@ -39,6 +39,7 @@
 **Latest releases**
 
 <!-- releases:start -->
+- `2026-10-12` [Promptwerk Skill 1.0.1](https://github.com/crizex/promptwerk-skill/releases/tag/v1.0.1)
 - `2026-10-11` [sessiondeck 1.3.0](https://github.com/crizex/sessiondeck/releases/tag/v1.3.0)
 - `2026-10-11` [SessionDeck Desktop 1.8.0](https://github.com/crizex/sessiondeck-desktop/releases/tag/v1.8.0)
 - `2026-10-08` [Promptwerk 1.4.2](https://github.com/crizex/promptwerk/releases/tag/v1.4.2)
