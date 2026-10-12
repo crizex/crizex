@@ -23,6 +23,11 @@
   <a href="https://github.com/crizex/promptwerk"><img src="assets/demo-promptwerk.gif" alt="Promptwerk: one rough sentence in, a reviewed run plan out demo" width="49%"></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/crizex/promptwerk-skill"><img src="assets/card-promptwerk-skill.svg" alt="Promptwerk Skill: rough idea in, reviewed prompt out" width="49%"></a>
+  <a href="https://github.com/crizex/promptwerk-skill"><img src="assets/demo-promptwerk-skill.gif" alt="Promptwerk Skill: rough idea in, reviewed prompt out demo" width="49%"></a>
+</p>
+
 <br>
 
 **How I build**
